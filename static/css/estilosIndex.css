@@ -1,0 +1,97 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
+}
+
+/* Título */
+.banner {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.banner h1 {
+    margin: 0;
+    font-size: 3.5rem;
+    color: #111;
+    text-decoration: underline;
+    text-underline-offset: 8px;
+}
+
+/*  botones */
+.button-container {
+    display: flex;
+    gap: 20px; /* Separación entre las dos */
+}
+
+/* Cajas Ejercicio 1 y 2 */
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 180px;              /* Ancho de la caja */
+    height: 180px;             /* Alto de la caja (cuadrada) */
+    background-color: #007bff; /* Color azul */
+    color: white;              /* Texto en blanco */
+    text-decoration: none;     /* Quita el subrayado del enlace */
+    font-size: 1.2rem;
+    border-radius: 4px;        /* Bordes ligeramente suaves */
+    transition: background-color 0.3s ease;
+}
+   body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.button-container {
+    display: flex;
+    gap: 20px;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 170px;
+    height: 170px;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 4px;
+    transition: opacity 0.2s, transform 0.2s;
+}
+
+.button:hover {
+    opacity: 0.9;
+    transform: translateY(-2px);
+}
+
+.morado {
+    background-color: #7a0a87;
+}
+
+.verde {
+    background-color: #84c218;
+}
+
+/* Efecto al pasar el mouse por encima */
+
+.morado:hover {
+    background-color: #4e0557;
+}
+
+.verde:hover {
+    background-color: #5e8b10;
+}
